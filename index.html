@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Fiky</title>
+    <link href="dist/output.css" rel="stylesheet"/>
+</head>
+<body>  
+<!-- Header Start -->
+<header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+    <div class="container">
+        <div class="flex items-center justify-between relative">
+            <div class="px-4">
+                <a href="#home" class="font-bold text-lg text-primary block py-6">Fiqkhy_Sandy</a>
+            </div>
+            <div class="flex items-center px-4">
+                <button id="hamburger" name="hamburger" type="button"
+                class="block absolute right-4 lg:hidden">
+                    <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+                    <span class="hamburger-line transition duration-300 ease-in-out"></span>
+                    <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+                </button>
+
+                <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+                    <ul class="block lg:flex">
+                        <li class="group">
+                            <a href="#home" class="text base text-dark py-2 mx-8 flex group-hover:text-primary">Beranda</a>
+                        </li>
+                        <li class="group">
+                            <a href="#about" class="text base text-dark py-2 mx-8 flex group-hover:text-primary">About</a>
+                        </li>
+                        <li class="group">
+                            <a href="#portfolio" class="text base text-dark py-2 mx-8 flex group-hover:text-primary">Portfolio</a>
+                        </li>
+                        <li class="group">
+                            <a href="#clients" class="text base text-dark py-2 mx-8 flex group-hover:text-primary">Experience</a>
+                        </li>
+                        <li class="group">
+                            <a href="#blog" class="text base text-dark py-2 mx-8 flex group-hover:text-primary">Blog</a>
+                        </li>
+                        <li class="group">
+                            <a href="#contact" class="text base text-dark py-2 mx-8 flex group-hover:text-primary">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- Header End -->
+
+<!-- Hero Section Start -->
+<section id="home" class="pt-36">
+    <div class="container">
+        <div class="flex flex-wrap">
+            <div class="w-full self-center px-4 lg:w-1/2">
+                <h1 class="text-base font-semibold text-primary md:text-xl lg:text-2xl">Halo Semua ✌,saya <span class="block font-bold text-dark text-4xl mt-1 lg:text-5xl">Fiqkhy Sandhy Pramudzy</span></h1>
+                <h2 class="font-medium text-secondary text-lg mb-5 max-w-xl">It Support & <span class="text-dark">Engineer</span></h2>
+                <p class="font-semibold text-slate-400 mb-10 leading-relaxed">Network, Software and Hardware Engineering.</p>
+                <a href="#" class="text-base font-semibold text-white bg-red-400 py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out">Hubungi Saya</a>
+            </div>
+            <div class="w-full self-end px-4 lg:w-1/2">
+            <div class="relative mt-10">
+                <img src="dist/img/my pic.png" alt="Fiqkhy Sandhy" class="max-w-full mx-auto" />
+                <span class="absolute -bottom-0 -z-10 left-1/2 -translate-x-1/2 md:scale-125">
+                    <svg width="400" height="400" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                        fill="#f87171"
+                        d="M50.7,-22.6C56.8,2.5,46.9,26.7,26.7,42.8C6.5,58.9,-23.9,66.9,-42.3,54.5C-60.7,42,
+                        -66.9,9.1,-57.9,-20C-48.8,-49.1,-24.4,-74.5,-1.1,-74.1C22.3,-73.8,44.5,-47.7,50.7,-22.6Z" transform="translate(100 100) scale(1.1)"
+                        />
+                      </svg>
+                </span>
+            </div>
+        </div>
+        </div>
+    </div>
+</section>
+<!-- Hero Section End -->
+
+<!-- About Section Start -->
+<section id="about" class="pt-36 pb-32">
+    <div class="container">
+        <div class="flex flex-wrap">
+            <div class="w-full px-4 mb-10 lg:w-1/2">
+                <h4 class="font-bold uppercase text-primary text-lg mb-3">Tentang Saya</h4>
+                <h2 class="font-bold text-dark text-3xl mb-5 max-w-md lg:text-4xl">IT SUPPORT & NETWORK ENGINEERING</h2>
+                <p class="font-medium text-base text-secondary max-w-xl lg:text-lg">Saya seorang lulusan S1 Teknik Infomatika, saya memiliki pengalaman 2 tahun bekerja sebagai IT Suppport, saya sangat menyukai bidang saya karna selalu ada ide kreatif dalam menyelesaikan case case tertentu, Besar harapan saya dapat diterima dan Saya akan bekerja keras untuk kemajuan perusahaan.</p>
+            </div>
+            <div class="w-full px-4 lg:w-1/2">
+                <h3 class="font-semibold text-dark text-2xl mb-4 lg:text-3xl lg:pt-10">Social Media</h3>
+                <p class="font-medium text-base text-secondary mb-6 lg:text-lg">ikuti saya dijejaring sosial berikut
+                </p>
+                <div class="flex items-center">
+                    <!-- LinkedIn -->
+                    <a
+                    href="https://www.linkedin.com/in/fiqkhy-sandhy-pramudzy-b69a12146" target="_blank"
+                    class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-red-600 hover:text-white">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" class="fill-current" viewBox="0 0 24 24">
+                        <title>LinkedIn</title>
+                        <path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 8c0 .557-.447 1.008-1 1.008s-1-.45-1-1.008c0-.557.447-1.008 1-1.008s1 .452 1 1.008zm0 2h-2v6h2v-6zm3 0h-2v6h2v-2.861c0-1.722 2.002-1.881 2.002 0v2.861h1.998v-3.359c0-3.284-3.128-3.164-4-1.548v-1.093z"/></svg>
+                    </a>
+                    <!-- Instagram -->
+                    <a href="https://instagram.com/fikhysandy?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-red-500 hover:text-white">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" class="fill-current" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                    </a>
+                     <!-- Facebook -->
+                     <a href="https://www.facebook.com/fikhy.sandy?mibextid=9R9pXO" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-red-500 hover:text-white">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" class="fill-current" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 10h-2v2h2v6h3v-6h1.82l.18-2h-2v-.833c0-.478.096-.667.558-.667h1.442v-2.5h-2.404c-1.798 0-2.596.792-2.596 2.308v1.692z"/></svg>
+                    </a>
+                     <!-- Whatsapp -->
+                     <a href="https://www.wa.me/6281222367500" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-red-500 hover:text-white">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" class="fill-current" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-5.971 18l.844-3.081c-.52-.902-.794-1.925-.794-2.973.001-3.279 2.668-5.946 5.946-5.946 1.591.001 3.084.62 4.206 1.744 1.123 1.124 1.741 2.618 1.74 4.207-.001 3.279-2.669 5.946-5.946 5.946-.995 0-1.976-.25-2.844-.724l-3.152.827zm3.298-1.903c.838.497 1.638.796 2.696.796 2.724 0 4.943-2.217 4.944-4.942.001-2.731-2.208-4.945-4.94-4.946-2.726 0-4.943 2.217-4.944 4.942 0 1.112.326 1.946.873 2.817l-.499 1.824 1.87-.491zm5.694-2.732c-.037-.062-.136-.099-.285-.174-.149-.074-.879-.434-1.015-.483-.136-.05-.235-.074-.334.074-.099.149-.384.483-.47.583-.087.099-.173.112-.322.037-.149-.074-.627-.231-1.195-.737-.442-.394-.74-.881-.827-1.029-.087-.149-.009-.229.065-.303l.223-.26.149-.248c.05-.099.025-.186-.012-.26l-.458-1.103c-.121-.29-.243-.25-.334-.255l-.286-.007c-.099 0-.26.037-.396.186s-.52.508-.52 1.24c0 .731.532 1.438.607 1.537.074.099 1.048 1.6 2.538 2.243.354.153.631.245.847.313.356.113.68.097.936.059.285-.043.879-.359 1.003-.706.123-.348.123-.645.086-.707z"/></svg>
+                    </a>
+                     <!-- Twitter -->
+                     <a href="https://twitter.com/FikyFs?t=965C4pAqeq43da8dz8wgvA&s=09" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-red-500 hover:text-white">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" class="fill-current" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.5 8.778c-.441.196-.916.328-1.414.388.509-.305.898-.787 1.083-1.362-.476.282-1.003.487-1.564.597-.448-.479-1.089-.778-1.796-.778-1.59 0-2.758 1.483-2.399 3.023-2.045-.103-3.86-1.083-5.074-2.572-.645 1.106-.334 2.554.762 3.287-.403-.013-.782-.124-1.114-.308-.027 1.14.791 2.207 1.975 2.445-.346.094-.726.116-1.112.042.313.978 1.224 1.689 2.3 1.709-1.037.812-2.34 1.175-3.647 1.021 1.09.699 2.383 1.106 3.773 1.106 4.572 0 7.154-3.861 6.998-7.324.482-.346.899-.78 1.229-1.274z"/></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- About Section End -->
+
+<!-- Portfolio Section Start -->
+<section id="portfolio" class="pt-36 pb-16 bg-slate-100">
+    <div class="container">
+        <div class="w-full px-4">
+            <div class="max-w-xl mx-auto text-center mb-16">
+                <h4 class="font-semibold text-lg text-primary mb-2">Portfolio</h4>
+                <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl">My Project</h2>
+                <p class="font-medium text-md text-secondary md:text-lg">Berikut ini adalah project view yang saya lakukan seputar project dan maintenance It Support</p>
+            </div>
+        </div>
+        <div class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
+            <div class="mb-12 p-4 md:w-1/2">
+                <div class="rounded-md shadow-md overflow-hidden">
+                    <img src="dist/img/project/1.png" alt="Booster" width="w-full" />
+                </div>
+                <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Booster Suryalaya - Fiqkhy Sandy</h3>
+                <p class="font-medium text-base text-secondary">Booster adalah aplikasi backchecing outlet yang di buat untuk mempermudah dalam proses validasi data outlet customer suryalaya telkomsel authorized partner.</p>
+            </div>
+            <div class="mb-12 p-4 md:w-1/2">
+                <div class="rounded-md shadow-md overflow-hidden">
+                    <img src="dist/img/project/2.png" alt="Website Company" width="w-full" />
+                </div>
+                <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Website Company</h3>
+                <p class="font-medium text-base text-secondary">Rancang Bangun WEBSITE Informasi Perusahaan sederhana dengan menggunakan platform wordpress.</p>
+            </div>
+            <div class="mb-12 p-4 md:w-1/2">
+                <div class="rounded-md shadow-md overflow-hidden">
+                    <img src="dist/img/project/3.png" alt="Technical Docummentation" width="w-full" />
+                </div>
+                <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Technical Docummentation</h3>
+                <p class="font-medium text-base text-secondary">Blue print tentang schema project yang pernah di implementasikan.</p>
+            </div>
+            <div class="mb-12 p-4 md:w-1/2">
+                <div class="rounded-md shadow-md overflow-hidden">
+                    <img src="dist/img/project/4.png" alt="Tribute Page" width="w-full" />
+                </div>
+                <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Tribute Page</h3>
+                <p class="font-medium text-base text-secondary">Out of the box adalah salah satu metode paling jitu yang selalu saya terapkan dalam membuat sebuah apikasi ataupun menyelesaikan case baik itu software dan hardware.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Portfolio Section End -->
+
+<!-- Client Section Start -->
+<section id="clients" class="pt-36 pb-32 bg-slate-500">
+    <div class="container">
+        <div class="w-full px-4">
+            <div class="mx-auto text-center mb-16">
+                <h4 class="font-semibold text-lg text-primary mb-2">Experience</h4>
+                <h2 class="font-bold text-white text-3xl mb-4 sm:text-4xl lg:text-5xl">Pengalaman Pekerjaan</h2>
+                <p class="font-medium text-md text-white md:text-lg">Berikut ini adalah beberapa pengalaman saya bersama beberapa perusahaan</p>
+            </div>
+        </div>
+<div class="w-full px-4">
+<div class="flex flex-wrap items-center justify-center">
+<a href="https://www.suryalaya.co.id/" class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+    <img src="dist/img/clients/suryalaya.svg" alt="suryalaya"></a>
+<a href="https://umc.ac.id/" class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+    <img src="dist/img/clients/wom.svg" alt="wom"></a>
+<a href="https://www.wom.co.id/" class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+    <img src="dist/img/clients/umc.svg" alt="suryalaya"></a>
+</div>
+</div>
+    </div>
+</section>
+<!-- Client Section End -->
+
+<!-- Blog start -->
+<section id="blog" class="pt-36 pb-32 bg-slate-100">
+    <div class="container">
+        <div class="w-full px-4">
+            <div class="max-w-xl mx-auto text-center mb-16">
+                <h4 class="font-semibold text-lg text-primary mb-2">Blog</h4>
+                <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl">Tulisan Terbaru</h2>
+                <p class="font-medium text-md text-secondary md:text-lg">Ini adalah sebagian tulisan terbaru dari saya</p>
+            </div>
+        </div>
+
+        <div class="flex flex-wrap">
+            <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+                    <img src="https://source.unsplash.com/360x200?Internet" alt="maintenance" class="w-full" />
+                    <div class="py-8 px-6">
+                        <h3>
+                            <a href="#" class="block mb-3 font-semibold text-xl text-dark hover:text-primary truncate">Tips Troubleshooting Jaringan Internet</a>
+                        </h3>
+                        <p class="font-medium text-secondary mb-6">Internet adalah sebuah komponen utama dari sebuah perjalanan sistem ataupun aplikasi</p>
+                        <a href="#" class="font-medium text-sm text-white bg-primary py-2 px-4 rounded-md hover:opacity-80">selengkapnya</a>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+                    <img src="https://source.unsplash.com/360x200?vpn" alt="vpn" class="w-full" />
+                    <div class="py-8 px-6">
+                        <h3>
+                            <a href="#" class="block mb-3 font-semibold text-xl text-dark hover:text-primary truncate">Virtual Private Network</a>
+                        </h3>
+                        <p class="font-medium text-secondary mb-6">teknologi yang memungkinkan Anda untuk membuat koneksi aman dan terenkripsi antara</p>
+                        <a href="#" class="font-medium text-sm text-white bg-primary py-2 px-4 rounded-md hover:opacity-80">selengkapnya</a>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+                    <img src="https://source.unsplash.com/360x200?firewall" alt="firewall" class="w-full" />
+                    <div class="py-8 px-6">
+                        <h3>
+                            <a href="#" class="block mb-3 font-semibold text-xl text-dark hover:text-primary truncate">Manfaat Firewall</a>
+                        </h3>
+                        <p class="font-medium text-secondary mb-6">memeriksa setiap paket data yang masuk atau keluar dari jaringan dan memutuskan</p>
+                        <a href="#" class="font-medium text-sm text-white bg-primary py-2 px-4 rounded-md hover:opacity-80">selengkapnya</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Blog End -->
+
+<!-- Contact Section Start -->
+<section id="contact" class="pt-36 pb-32">
+    <div class="container">
+        <div class="w-full px-4">
+            <div class="max-w-xl mx-auto text-center mb-16">
+                <h4 class="font-semibold text-lg text-primary mb-2">Contact</h4>
+                <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl">Hubungi Kami</h2>
+                <p class="font-medium text-md text-secondary md:text-lg">Hubungi kami untuk meninjau informasi lebih jauh</p>
+            </div>
+        </div>
+    <form>
+        <div class="w-full lg:w-2/3 lg:mx-auto">
+            <div class="w-full px-4 mb-8">
+                <label for="name" class="text-base font-bold text-slate-500">Nama</label>
+                <input type="text" id="name" class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary" />
+            </div>
+            <div class="w-full px-4 mb-8">
+                <label for="email" class="text-base font-bold text-slate-500">Email</label>
+                <input type="email" id="name" class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary" />
+            </div>
+            <div class="w-full px-4 mb-8">
+                <label for="message" class="text-base font-bold text-slate-500">Pesan</label>
+                <textarea type="email" id="email" class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary h-32"></textarea>
+            </div>
+            <div class="w-full px-4">
+                <button class="text-base font-semibold text-white bg-red-400 py-3 px-8 rounded-full w-full hover:opacity-80 hover:shadow-lg transition duration-500">kirim</button>
+            </div>
+        </div>
+    </form>
+    </div>
+</section>
+<!-- Contact Section End -->
+
+<!-- Footer Start -->
+<footer class="bg-dark pt-24 pb-12">
+    <div class="container">
+        <div class="flex flex-wrap">
+            <div class="w-full px-4 mb-12 text-slate-300 font-medium md:w-1/3">
+                <h2 class="font-bold text-4xl text-white mb-5">My Section</h2>
+                <h3 class="font-bold text-2xl mb-2">Hubungi</h3>
+                <p>fiky.sandy.fs@gmail.com</p>
+                <p>Jl. Taman Sumber Indah</p>
+                <p>Kab.Sumber-Cirebon</p>
+            </div>
+            <div class="w-full px-4 mb-12 md:w-1/3">
+                <h3 class="font-semibold text-xl text-white mb-5">Kategori Tulisan</h3>
+                <ul class="text-slate-300">
+                    <li>
+                        <a href="#blog" class="inline-block text-base hover:text-primary mb-3">Network</a>
+                    </li>
+                    <li>
+                        <a href="#blog" class="inline-block text-base hover:text-primary mb-3">VPN</a>
+                    </li>
+                    <li>
+                        <a href="#blog" class="inline-block text-base hover:text-primary mb-3">Firewall</a>
+                    </li>
+                    <li>
+                        <a href="#blog" class="inline-block text-base hover:text-primary mb-3">Tentang Saya</a>
+                    </li>
+                    <li>
+                        <a href="#about" class="inline-block text-base hover:text-primary mb-3">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#blog" class="inline-block text-base hover:text-primary mb-3">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#Contact" class="inline-block text-base hover:text-primary mb-3">Firewall</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="wp-full pt-10 border-t border-slate-700">
+            <div class="flex items-center justify-center mb-5">
+                <!-- LinkedIn -->
+                <a
+                href="https://www.linkedin.com/in/fiqkhy-sandhy-pramudzy-b69a12146" target="_blank"
+                class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" class="fill-current" viewBox="0 0 24 24">
+                    <title>LinkedIn</title>
+                    <path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 8c0 .557-.447 1.008-1 1.008s-1-.45-1-1.008c0-.557.447-1.008 1-1.008s1 .452 1 1.008zm0 2h-2v6h2v-6zm3 0h-2v6h2v-2.861c0-1.722 2.002-1.881 2.002 0v2.861h1.998v-3.359c0-3.284-3.128-3.164-4-1.548v-1.093z"/></svg>
+                </a>
+                <!-- Instagram -->
+                <a href="https://instagram.com/fikhysandy?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:text-white">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" class="fill-current" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                </a>
+                 <!-- Facebook -->
+                 <a href="https://www.facebook.com/fikhy.sandy?mibextid=9R9pXO" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:text-white">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" class="fill-current" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 10h-2v2h2v6h3v-6h1.82l.18-2h-2v-.833c0-.478.096-.667.558-.667h1.442v-2.5h-2.404c-1.798 0-2.596.792-2.596 2.308v1.692z"/></svg>
+                </a>
+                 <!-- Whatsapp -->
+                 <a href="https://www.wa.me/6281222367500" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:text-white">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" class="fill-current" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-5.971 18l.844-3.081c-.52-.902-.794-1.925-.794-2.973.001-3.279 2.668-5.946 5.946-5.946 1.591.001 3.084.62 4.206 1.744 1.123 1.124 1.741 2.618 1.74 4.207-.001 3.279-2.669 5.946-5.946 5.946-.995 0-1.976-.25-2.844-.724l-3.152.827zm3.298-1.903c.838.497 1.638.796 2.696.796 2.724 0 4.943-2.217 4.944-4.942.001-2.731-2.208-4.945-4.94-4.946-2.726 0-4.943 2.217-4.944 4.942 0 1.112.326 1.946.873 2.817l-.499 1.824 1.87-.491zm5.694-2.732c-.037-.062-.136-.099-.285-.174-.149-.074-.879-.434-1.015-.483-.136-.05-.235-.074-.334.074-.099.149-.384.483-.47.583-.087.099-.173.112-.322.037-.149-.074-.627-.231-1.195-.737-.442-.394-.74-.881-.827-1.029-.087-.149-.009-.229.065-.303l.223-.26.149-.248c.05-.099.025-.186-.012-.26l-.458-1.103c-.121-.29-.243-.25-.334-.255l-.286-.007c-.099 0-.26.037-.396.186s-.52.508-.52 1.24c0 .731.532 1.438.607 1.537.074.099 1.048 1.6 2.538 2.243.354.153.631.245.847.313.356.113.68.097.936.059.285-.043.879-.359 1.003-.706.123-.348.123-.645.086-.707z"/></svg>
+                </a>
+                 <!-- Twitter -->
+                 <a href="https://twitter.com/FikyFs?t=965C4pAqeq43da8dz8wgvA&s=09" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:text-white">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" class="fill-current" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.5 8.778c-.441.196-.916.328-1.414.388.509-.305.898-.787 1.083-1.362-.476.282-1.003.487-1.564.597-.448-.479-1.089-.778-1.796-.778-1.59 0-2.758 1.483-2.399 3.023-2.045-.103-3.86-1.083-5.074-2.572-.645 1.106-.334 2.554.762 3.287-.403-.013-.782-.124-1.114-.308-.027 1.14.791 2.207 1.975 2.445-.346.094-.726.116-1.112.042.313.978 1.224 1.689 2.3 1.709-1.037.812-2.34 1.175-3.647 1.021 1.09.699 2.383 1.106 3.773 1.106 4.572 0 7.154-3.861 6.998-7.324.482-.346.899-.78 1.229-1.274z"/></svg>
+                </a>
+            </div>
+            <p class="font-medium text-xs text-slate-500 text-center">Copyright by <a href="https://instagram.com/fikhysandy" target="_blank" class="font-bold text-primary">Fiqky</a><a href="https://tailwindcss.com" target="_blank" class="font-bold text-sky-500">🐱‍🚀Tailwind CSS 3.0</a>
+            </p>
+        </div>
+    </div>
+</footer>
+<!-- Footer End -->
+
+  <script src="dist/js/script.js"></script>
+</body>
+</html>
